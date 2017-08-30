@@ -37,4 +37,6 @@ Reemplazar los valores de autenticación en el script:
 >`access_token_secret = 'access_token_secret here'`
 >
 Reemplazar [#hashtag](https://es.wikipedia.org/wiki/Hashtag) con una "palabra" como parametro de busqueda:
->`twitterStream.filter(track = ["#hashtag here"])` 
+```python
+twitterStream.filter(track = ["#hashtag here"])
+``` 
